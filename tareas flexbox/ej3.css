@@ -1,10 +1,10 @@
 .contenedor {
-    flex-direction: column;
+    flex-direction: row;
     display: inline-flex;
+    border:solid black;
     background-color: white;
-    border: solid black;
+    justify-content: space-between;
     width: 500px;
-    height: auto;
 }
 
 .item {
@@ -16,8 +16,7 @@
     margin: 10px;
     font-size: 20px;
     color: white;
-    margin: 0px;
-    text-align: center;
+    justify-content: space-between;
 }
 
 #rojo {

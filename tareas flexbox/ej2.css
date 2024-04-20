@@ -1,11 +1,11 @@
 .contenedor {
-    flex-direction: column;
+    flex-direction: row-reverse;
     display: inline-flex;
+    border:solid black;
     background-color: white;
-    border: solid black;
     width: 500px;
     height: auto;
-}
+    }
 
 .item {
     background-color: #ccc;
