@@ -1,15 +1,15 @@
 .contenedor {
     flex-direction: column;
-    display: inline-flex;
+    display: flex;
     background-color: white;
     border: solid black;
     width: 500px;
     height: auto;
+    align-items: end;
 }
 
 .item {
     background-color: #ccc;
-    border-radius: 5px;
     border-color: black;
     width: 100px;
     height: 100px;
