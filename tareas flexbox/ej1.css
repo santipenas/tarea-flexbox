@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    pad: 0px;
+    margin: opx;
+}
+
 .contenedor {
     flex-direction: column;
     display: flex;
@@ -17,7 +23,9 @@
     font-size: 20px;
     color: white;
     margin: 0px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #rojo {

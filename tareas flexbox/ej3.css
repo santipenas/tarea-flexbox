@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+    pad: 0px;
+    margin: opx;
+}
+
 .contenedor {
     flex-direction: row;
     display: inline-flex;
-    border:solid black;
+    border: solid black;
     background-color: white;
     justify-content: space-between;
     width: 500px;
@@ -16,8 +22,9 @@
     margin: 0px;
     font-size: 20px;
     color: white;
-    justify-content: space-between;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #rojo {
