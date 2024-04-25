@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: opx;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size: 100%;
+}
+
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	background: rgb(184, 143, 8);
+	float: left;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	padding-left: 30px;
+
+
+}
+
+section {
+	background: #F1F2C0;
+	float: left;
+	border: solid 1px black;
+	width: 100%;
+	justify-content: space-between;
+	padding-left: 6px;
+}
+
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 100%;
+	border: solid 1px black;
+	padding-left: 6px;
+}
+
+@media screen and {
+	max-width: 800px;
+
+}
