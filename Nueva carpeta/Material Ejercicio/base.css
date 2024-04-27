@@ -47,7 +47,8 @@ aside {
 @media (max-width: 800px) {
 
 	#contenedor {
-		width: 800px;
+		/*recordar que puedo usar px o poner el % de width que queda mejor*/
+		width: 100%;
 		background: #8FA68E;
 		margin-right: auto;
 		margin-left: auto;
@@ -64,6 +65,10 @@ aside {
 
 	ul {
 		list-style-type: none;
+		display:flex;
+		justify-content: space-between;
+		flex-direction: column;
+		
 	}
 
 	a {
@@ -90,5 +95,7 @@ aside {
 		width: 100%;
 		border: solid 1px black;
 		padding-left: 20px;
+		box-sizing: border-box;
 	}
 }
+
