@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.col-6{
+    border: 2px solid black;
+}
+
+
