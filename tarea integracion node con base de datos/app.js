@@ -24,14 +24,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-// mas abajo puedo ir probando las consultas 
 
-var pool = require('./models/bd');
+var pool = require('./models/bd.js');
 
 pool.query('select * from empleados').then(function(resultados) {
-  console.log(resultados);
+  console.log(resultados)
 });
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
